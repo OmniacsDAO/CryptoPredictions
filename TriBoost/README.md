@@ -15,7 +15,7 @@ TriBoost stacks **LightGBM, CatBoost and XGBoost** on top of a rich, minute-leve
 | 5    | `Dockerfile` | Slim Python 3.11 image with all requirements pre-installed (see `requirements.txt`). |
 | 6    | `docker-compose.yml` | One-liner dev/prod deployment; maps port `4562` and mounts `data/` + `models/` volumes . |
 | 7    | `requirements.txt` | Pinned runtime deps (FastAPI + Uvicorn, tree boosters, NumPy/Pandas) . |
-| 8    | `data/` | OHLCV‐history CSV(s); `.gitignore`d by default. |
+| 8    | `data/` | OHLCV‐history CSV(s); [Hosted Here](https://omniacsdao.xyz/opendata/solusd_history.csv) |
 | 9    | `models/` | Stores `best_params.pkl` and any pickled model artefacts. |
 | 10   | `Backtesting/` | `Backtesting.py` performs walk-forward evaluation; `BTbench.py` computes direction accuracy, Pearson *r*, and weighted error metrics; `BTbenchPlot.py` produces diagnostics|
 
