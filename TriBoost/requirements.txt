@@ -6,3 +6,5 @@ lightgbm
 catboost
 xgboost
 optuna
+scikit-learn
+ta
