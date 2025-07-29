@@ -13,7 +13,7 @@ from utils import *
 warnings.filterwarnings("ignore", category=UserWarning)
 
 # ───────────────────── config ──────────────────────
-CSV_PATH     = Path("solusd_history.csv")
+CSV_PATH     = Path("data/solusd_history.csv")
 PARAM_PKL    = Path("models/best_params.pkl")
 HORIZON      = 480                  # 8 h
 SEED         = 42
