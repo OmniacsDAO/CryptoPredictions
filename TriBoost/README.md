@@ -43,7 +43,7 @@ A custom **direction-aware objective** steepens LightGBM gradients whenever the 
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt     # FastAPI, boosters, pandas, numpy …
 
-# 2) Hyper-param search (~30 min laptop)
+# 2) Hyper-param search
 python GridSearch.py
 
 # 3) One-off forecast
